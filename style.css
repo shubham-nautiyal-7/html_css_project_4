@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+    font-weight: 350;
+}
+.hero_sec{
+    background-image: url(image/developer\ \(1\).png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text_container{
+    color: white;
+    min-width: 900vh;
+    margin: auto;
+    padding-top: 64px;
+    padding-left: 280px;
+}
+.small{
+    font-size: 50px;
+    font-weight: 400;
+
+}
+.lg_text{
+    font-size: 35px;
+    font-weight: 380;
+    line-height: 2rem;
+
+}
+.box{
+    background-color: #000;
+    padding:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box h2{
+color: aliceblue;
+font-size: 45px;
+line-height: 0.8rem;
+font-weight: 650;
+
+}
+.box span{
+    color:antiquewhite;
+    font-size: 80px;
+    font-weight: 750;
+
+}
+.work_box{
+    display: flex;
+    gap:7%;
+    grid-template-columns: (repeat(auto-fit,minmax(300px,1fr)));
+    max-width: 1100px;
+    margin:50px;
+    flex-direction: row;
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    max-width: 320px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+  transition: 0.2s ease-in-out;
+}
+.card:hover{
+    transition: 0.2 ease-in-out;
+    transform: scale(1.2);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.8);
+
+}
+.bottem_sec{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.contact {
+    background-color: #515603;
+   
+  }
+  .about_sec {
+    background-color: #722300;
+  
+  }
+  .contact ,.about_sec{
+    padding: 32px;
+    min-height: 300px;
+    color: white;
+  }
+  .about_sec h3,
+  .contact h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .about_sec p,
+  .contact p{
+   margin-top: 70px;
+  }
+  footer{
+    background-color: #000;
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 70px;
+    font-weight: 800;
+  }
